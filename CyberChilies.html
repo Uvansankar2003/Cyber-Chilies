@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to Cyber Chilies</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+body {
+    background-color: black;
+    font-family:  "Courier New", Courier, monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: #00FF00; /* Green text */
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.typing-animation {
+    overflow: hidden;
+    border-right: 0.1em solid #00FF00; /* Green cursor */
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    font-size: 35px; /* Adjust font size */
+    text-align: center; /* Center text */
+    display: inline-block;
+    animation: typing 3s steps(40, end);
+    position: relative;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #00FF00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 0 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #00CC00; /* Darker green on hover */
+}
+
+.section {
+    margin-top: 50px;
+}
+
+.bio {
+    margin: 20px;
+    text-align: center;
+    color: #00FF00;
+}
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+</style>
+
+<style>
+.description {
+    margin-top: 70px;
+    padding: 100px;
+    color: #00FF00;
+    text-align: center;
+    font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h1 class="typing-animation">Welcome to Cyber Chilies</h1>
+    <div class="button-container">
+        <a href="#" class="button">Home</a>
+        <a href="#" class="button">About</a>
+        <a href="#" class="button">Blog</a>
+        <a href="#" class="button">Contact</a>
+    </div>
+</div>
+
+<div class="description">
+    We, Cyber Chilies, a CTF team based in Tamil Nadu, are thrilled to have such a motivated and enthusiastic group ready to tackle any challenge that comes our way. Together, we will embark on a journey filled with problem-solving and the pursuit of excellence in the world of cybersecurity. Get ready to showcase our talent, innovate solutions, and emerge victorious. With dedication and teamwork we are ready to face challenges.
+</div>
+
+<div class="section" style="position: relative;">
+    <div class="name"style="position: absolute; top: -70px; left: 50%; transform: translateX(-50%); z-index: 100;">
+         <h2 class="typing-animation" style="color: #00FF00; text-align: center; font-weight: bold;">Uvan Sankar</h2>
+    </div>
+    <a href="https://www.linkedin.com/in/uvan-sankar/"><img src="img\uvan.jpg" alt="Uvan" class="profile-img"></a>
+    <div class="bio" style="text-align: center">
+        Tech Enthusiastic and curiosity driven person with interest in Cyber Security and Penetration testing.Looking for a Great opportunity to show my skills and growth.
+    </div>
+
+<div class="section"style="position: relative;">
+    <div class="name"style="position: absolute; top: -70px; left: 50%; transform: translateX(-50%); z-index: 10;">
+        <h2 class="typing-animation" style="color: #00FF00; text-align: center; font-weight: bold;">Abinesh</h2>
+    </div>
+    <a href="https://www.linkedin.com/in/abinesh-m20/" style="display: block; margin: 100px;"><img src="img\abi.jpg" alt="Abi" class="profile-img"></a>
+    <div class="bio"style="text-align:center; margin-top: -50px; margin-bottom: 100px;">
+        Penetration Tester | Bug Hunter | Web | Android | Network
+    </div>
+
+    <div style="position: relative; text-align: center;">
+        <div class="section">
+            <div class="name" style="position: relative;margin-top: -60px; display: inline-block; margin-bottom: 20px;">
+                <h2 class="typing-animation" style="color: #00FF00; font-weight: bold;">Althaf</h2>
+                <a href="https://www.linkedin.com/in/althaf1029/"><img src="img\althaf.jpg" alt="Althaf" class="profile-img"></a>
+                <div class="bio" style="text-align: center;">I am a Self Learner and WHITE HAT HACKER</div>
+            </div>
+        </div>
+    
+        <div class="section">
+            <div class="name" style="position: relative; margin-top: -50px ;display: inline-block; margin-bottom: 20px;">
+                <h2 class="typing-animation" style="color: #00FF00; font-weight: bold;">Vasanth</h2>
+                <a href="https://www.linkedin.com/in/vasanthabalaji/"><img src="img\vasa.jpg" alt="Vasanth" class="profile-img"></a>
+                <div class="bio" style="text-align: center;">Innovative Cloud & Security learner</div>
+            </div>
+        </div>
+    
+        <div class="section">
+            <div class="name" style="position: relative; margin-top: -50px; display: inline-block; margin-bottom: 20px;">
+                <h2 class="typing-animation" style="color: #00FF00; font-weight: bold;">Nithin</h2>
+                <a href="https://www.linkedin.com/in/nithin-steward-raj-n-d-a481b6209/"><img src="img\nithin.png" alt="Nithin" class="profile-img"></a>
+                <div class="bio" style="text-align: center;">Penetration Tester, testing Both network and web app</div>
+            </div>
+        </div>
+    </div>
+  <!-- Green Line -->
+  <hr style="border: 2px solid #00FF00; width: 90%; margin: 20px auto;">
+
+  <!-- Blog Section -->
+  <div class="section" style="display: none;">
+      <h2>Blog</h2>
+      <div class="blog-posts">
+          <div class="blog-post">
+              <h3>Uvan</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <button class="read-more">Read More</button>
+          </div>
+          <div class="blog-post">
+              <h3>Blog Post 2</h3>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <button class="read-more">Read More</button>
+          </div>
+          <div class="blog-post">
+              <h3>Blog Post 3</h3>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <button class="read-more">Read More</button>
+          </div>
+      </div>
+    </div>
+    <div style="height: 2000px; padding-top: 20px;">
+        <!-- Some content to enable scrolling -->
+    </div>
+ </div>
